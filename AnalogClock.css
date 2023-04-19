@@ -1,0 +1,33 @@
+
+
+#handEl{
+    text-align: center;
+    background-color: black;
+    border-radius: 40%;
+    color:white;
+    width: 210px;
+    height: 30px;
+    position:absolute; 
+    transform-origin:left;
+    left:50%;
+    top: 45%
+}
+#clockBackground{
+    background-image: url("ClockBackground.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform-origin: left;
+    width:600px;
+    height:600px;
+    position:absolute; 
+    left:50%;
+    top: 45%;
+    margin-left: -300px;
+    margin-top: -285px;
+}
+
+p{
+    margin:6px;
+    scale: 2;
+    font-family:Arial, Helvetica, sans-serif;
+}
